@@ -1,8 +1,8 @@
-import React from 'react';
-import styles from '../../styles/home.module.css';
-import Lottie from 'react-lottie';
-import codingAnimation from '../lotties/codinglottie.json';
-import resume from '../docs/resumee.pdf';
+import React from "react";
+import styles from "../../styles/home.module.css";
+import Lottie from "react-lottie";
+import codingAnimation from "../lotties/codinglottie.json";
+import resume from "../docs/resumee.pdf";
 
 function Home() {
   const defaultOptions = {
@@ -10,20 +10,20 @@ function Home() {
     autoplay: true,
     animationData: codingAnimation,
     rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice',
+      preserveAspectRatio: "xMidYMid slice",
     },
   };
   return (
     <div className={styles.home}>
       <div className={styles.main}>
         <div className={styles.intro}>
-          <div className={styles.text}>Hi I'm Allan</div>
+          <div className={styles.text}>Hi I'm Nagito Saki</div>
         </div>
         <div className={styles.intro2}>
           <div className={styles.text}>
-            I'm passionate Full Stack web developer having an experience of web
-            applications with Nodejs, React.js, Next.js and Mobile Development
-            development on Flutter, Dart and Kotlin
+            I'm Senior Full Stack | Blockchain developer having an experience of
+            web applications with Nodejs, React.js, Next.js and Blockchain
+            Development development on Solidity and Rust
           </div>
         </div>
         <div className={styles.button}>

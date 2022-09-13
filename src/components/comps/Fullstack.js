@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   FaReact,
   FaHtml5,
@@ -8,11 +8,11 @@ import {
   FaDatabase,
   FaNpm,
   FaCaretRight,
-} from 'react-icons/fa';
-import Lottie from 'react-lottie';
-import stackslotties from '../lotties/stackslottie.json';
-import { FullstackContent } from '../contents';
-import styles from '../../styles/techs.module.css';
+} from "react-icons/fa";
+import Lottie from "react-lottie";
+import stackslotties from "../lotties/stackslottie.json";
+import { FullstackContent } from "../contents";
+import styles from "../../styles/techs.module.css";
 
 function Fullstack() {
   const defaultOptions = {
@@ -20,7 +20,7 @@ function Fullstack() {
     autoplay: true,
     animationData: stackslotties,
     rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice',
+      preserveAspectRatio: "xMidYMid slice",
     },
   };
   return (
@@ -30,7 +30,7 @@ function Fullstack() {
           <Lottie options={defaultOptions} />
         </div>
         <div className={styles.row}>
-          <div className={styles.stacktitle}> Full Stack Development</div>
+          <div className={styles.stacktitle}> Front End Development</div>
           <div className={styles.stackicons}>
             <FaHtml5 />
             <FaCss3 />
